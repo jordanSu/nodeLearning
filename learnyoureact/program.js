@@ -21,7 +21,7 @@ require('babel-core/register')({
 });
 
 var TodoBox = require('./views/index.jsx').TodoBox;
-console.log(TodoBox);
+
 var data = [
     {title: "Shopping", detail: process.argv[3]},
     {title: "Hair cut", detail: process.argv[4]}
@@ -31,7 +31,7 @@ app.use('/bundle.js', function (req, res) {
     res.setHeader('content-type', 'application/javascript');
 
     browserify("./app.js")
-        .transform("babelify", { compact: true, presets: ["react", "es2015"] })
+        .transform("babelify", { presets: ["react", "es2015"] })
         .bundle()
         .pipe(res);
 });
