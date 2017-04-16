@@ -1,14 +1,14 @@
 # browserify-adventure Practice
 
+## Description
+This is browserify-adventure solutions I wrote
 
-### This is browserify-adventure solutions I wrote
-
-### This workshopper will bring you some concept
+## This workshopper brings you
 - **Browserify** makes your node script works on most browsers.
 - Write a 'widget' module and create a bundle that will expose `require('widget')` to the environment
 - **Tramsforms** do some pre-processing for us, you will learn how to use it and even write it yourself
 
-### Exercise
+## Exercise
 1. BEEP BOOP [[console.js](console.js)]
 2. USING NPM PACKAGES [[package.js](package.js)]
 3. SINGLE EXPORT [[module.js](module.js)] [[uniquely.js](uniquely.js)]
