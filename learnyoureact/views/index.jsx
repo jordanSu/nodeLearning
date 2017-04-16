@@ -4,7 +4,9 @@ let style = {
     border: "1px solid black"
 };
 
-export default class TodoBox extends React.Component{
+//module.exports = TodoBox;
+
+export class TodoBox extends React.Component{
     render() {
         return (
             <div className="todoBox">
@@ -56,9 +58,11 @@ class Todo extends React.Component {
         );
     }
 }
+/*
 Todo.propTypes = {
     title: React.PropTypes.string.isRequired
 }
+*/
 
 class TodoForm extends React.Component {
     render() {
