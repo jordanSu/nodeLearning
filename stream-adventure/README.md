@@ -1,5 +1,5 @@
-# stream-adventure_Practice
-### This is just a stream-adventure practice for myself
+# stream-adventure Practice
+### This is solutions of stream-adventure I wrote
 
 ## Exercise
 1. BEEP BOOP [[program.js](program.js)]
@@ -18,7 +18,7 @@
 14. CRYPT [[crypt.js](crypt.js)]
 15. SECRETZ [[secretZip.js](secretZip.js)]
 
-##Reference 
+##Reference
 [stream-adventure冒险之旅](http://hosn.github.io/2015/09/14/stream-adventure冒险之旅/)
 
 [node-stream-adventure-solutions](https://github.com/jeremy-w/node-stream-adventure-solutions)

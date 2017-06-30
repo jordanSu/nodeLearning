@@ -1,7 +1,7 @@
 # browserify-adventure Practice
 
 ## Description
-This is browserify-adventure solutions I wrote
+This is solutions of browserify-adventure  I wrote
 
 ## This workshopper brings you
 - **Browserify** makes your node script works on most browsers.
